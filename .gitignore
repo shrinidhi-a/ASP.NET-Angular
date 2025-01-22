@@ -1,9 +1,3 @@
 Examples/Basic-Books-FullStack-Demo/backEnd/BookApi/.vs
-Examples/Basic-Books-FullStack-Demo/backEnd/BookApi/BookApi.sln
-Examples/Basic-Books-FullStack-Demo/backEnd/BookApi/BookApi/bin
-Examples/Basic-Books-FullStack-Demo/backEnd/BookApi/BookApi/obj
-Examples/Basic-Books-FullStack-Demo/backEnd/BookApi/BookApi/properties
-Examples/Basic-Books-FullStack-Demo/backEnd/BookApi/BookApi/appsettings.Development.json
-Examples/Basic-Books-FullStack-Demo/backEnd/BookApi/BookApi/appsettings.json
-Examples/Basic-Books-FullStack-Demo/backEnd/BookApi/BookApi/BookApi.csproj
-Examples/Basic-Books-FullStack-Demo/backEnd/BookApi/BookApi/BookApi.csproj.user
+
+EmployeeManagementSystem/backEnd/EmployeeManagement/.vs
