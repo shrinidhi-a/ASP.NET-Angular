@@ -1,0 +1,34 @@
+<h2>{{ isEditing ? "Edit" : "Create" }} Employee</h2>
+
+<div *ngIf="errMessage != ''">
+  {{ errMessage }}
+</div>
+
+<form (ngSubmit)="onSubmit()">
+  <div>
+    <label for="firstName">First Name:</label>
+    <input type="text" name="firstName" [(ngModel)]="employee.firstName" />
+  </div>
+
+  <div>
+    <label for="firstName">Last Name:</label>
+    <input type="text" name="lastName" [(ngModel)]="employee.lastName" />
+  </div>
+
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" name="email" [(ngModel)]="employee.email" />
+  </div>
+
+  <div>
+    <label for="phone">Phone:</label>
+    <input type="phone" name="phone" [(ngModel)]="employee.phone" />
+  </div>
+
+  <div>
+    <label for="position">Position:</label>
+    <input type="text" name="position" [(ngModel)]="employee.position" />
+  </div>
+
+  <button type="submit">{{ isEditing ? "Edit" : "Create" }}</button>
+</form>
